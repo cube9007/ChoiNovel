@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/choi_novel/static/css/main.c5d91e59.css",
+    "main.js": "/choi_novel/static/js/main.3312f59c.js",
+    "index.html": "/choi_novel/index.html",
+    "main.c5d91e59.css.map": "/choi_novel/static/css/main.c5d91e59.css.map",
+    "main.3312f59c.js.map": "/choi_novel/static/js/main.3312f59c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5d91e59.css",
+    "static/js/main.3312f59c.js"
+  ]
+}
