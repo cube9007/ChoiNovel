@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.f {
+    &-logo {
+        font-family: 'Norican', serif;
+        font-size: 40px;
+    }
+    &-banner {
+        font-family: 'Song Myung', serif;
+    }
+    &-h1 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    &-h2 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    &-h3 {
+        font-size: 35px;
+    }
+    &-b30b {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    &-b30 {
+        font-size: 30px;
+    }
+    &-b25b {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    &-b25 {
+        font-size: 25px;
+    }
+    &-b20b {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    &-b20 {
+        font-size: 20px;
+    }
+    &-b15b {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    &-b15 {
+        font-size: 15px;
+    }
+    &-b12 {
+        font-size: 12px;
+    }
+    
+}

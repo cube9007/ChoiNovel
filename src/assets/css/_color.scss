@@ -1,0 +1,80 @@
+$primary: #2245FF;
+$primary: rgb(34,29,255);
+$primary_light: #435EEA;
+$black: rgb(0,0,0);
+$c444: #444;
+$c666: #666;
+$eee: #eee;
+$white: rgb(255,255,255);
+$white_80p: rgb($white, 0.8);
+$white_60p: rgb($white, 0.6);
+
+
+.c {
+    &-f {
+        &-primary {
+            color: $primary;
+        }
+        &-primary_light {
+            color: $primary_light;
+        }
+        &-black {
+            color: $black;
+        }
+        &-c444 {
+            color: $c444;
+        }
+        &-c666 {
+            color: $c666;
+        }
+        &-eee {
+            color: $eee;
+        }
+        &-white {
+            color: $white;
+        }
+    }
+    &-bg {
+        &-primary {
+            background-color: $primary;
+        }
+        &-black {
+            background-color: $black;
+        }
+        &-c444 {
+            background-color: $c444;
+        }
+        &-c666 {
+            background-color: $c666;
+        }
+        &-eee {
+            background-color: $eee;
+        }
+        &-white {
+            background-color: $white;
+        }
+    }
+    &-otl {
+        &-primary {
+            border: 1px solid $primary;
+        }
+        &-black {
+            border: 1px solid $black;
+        }
+        &-c444 {
+            border: 1px solid $c444;
+        }
+        &-c666 {
+            border: 1px solid $c666;
+        }
+        &-eee {
+            border: 1px solid $eee;
+        }
+        &-white {
+            border: 1px solid $white;
+        }
+    }
+}
+
+
+

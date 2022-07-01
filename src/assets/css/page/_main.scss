@@ -1,0 +1,52 @@
+.section {
+    &-1 {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        &-bg {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            background-color: $black;
+            z-index: -2;
+        }
+    }
+    &-2 {
+        height: 10000px;
+    }
+}
+
+.banner {
+    width: 1400px;
+    padding-top: 200px;
+    &-small {
+        font-family: 'Song Myung', serif;
+        font-size: 40px;
+        color: $white_60p;
+    }
+    &-middle {
+        font-family: 'Song Myung', serif;
+        font-size: 60px;
+        color: $primary_light;
+    }
+    &-big {
+        font-family: 'Song Myung', serif;
+        font-size: 80px;
+    }
+    &-img {
+        position: absolute;
+       
+        z-index: -1;
+        bottom: 0;
+        width: 1400px;
+        display: flex;
+        justify-content: end;
+        &-png {
+            width: 120vh;
+            margin-right: -10vh;
+            
+        }
+        
+        
+    }
+}
