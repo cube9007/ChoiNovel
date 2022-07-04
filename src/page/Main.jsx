@@ -25,6 +25,7 @@ import Section4Img3 from "../assets/img/section4_img3.png"
 import Section4Img4 from "../assets/img/section4_img4.png"
 import Section4Img5 from "../assets/img/section4_img5.png"
 import Section4Img6 from "../assets/img/section4_img6.png"
+import manyBooks from "../assets/img/manyBooks.png"
 
 function Main() {
   
@@ -176,7 +177,7 @@ function Main() {
                   x: 0,
                   transition: {
                   type: "spring",
-                  duration: 2,
+                  duration: 3,
                   }
               }}
             >
@@ -273,13 +274,13 @@ function Main() {
                   y: 0,
                   transition: {
                   type: "spring",
-                  duration: 2,
+                  duration: 4,
                   }
               }}
             >
               <div className="section-4-desc-wordRight">
                 <p className="f-b30b">모니터 안의 세상</p>
-                <p className="f-b25 c-f-c666">최원호</p>
+                <p className="f-b20 c-f-c666">최원호</p>
                 <p className="f-b15 c-f-c666"> 무수히 많은 컴퓨터 속 단 하나, 특별한 모니터. 어느 날 한 남자는 모니터 속을 들어갈 수 있게 되는 능력을 얻게 된다. 
                   막막한 세상 속에서 혼자 떠도는 한 남자. 이 남자는 돈도 없고 집도 없는 빈곤한 형편이다. 마지막 술 한잔을 걸치고 남은 
                   노잣돈으로 피씨방이나 들러서 깽판을 친다. 싸움이 난 현장에서 주인공은 뭔지 모를 몽둥이같은 것에 맞고 모니터에 부딪혀
@@ -295,14 +296,14 @@ function Main() {
                   y: 0,
                   transition: {
                   type: "spring",
-                  duration: 2,
+                  duration: 4,
                   }
               }}
             >
               <img src={Section4Img2} />
               <div className="section-4-desc-wordLeft">
                 <p className="f-b30b">별빛 조각사</p>
-                <p className="f-b25 c-f-c666">최원호</p>
+                <p className="f-b20 c-f-c666">최원호</p>
                 <p className="f-b15 c-f-c666"> 숨겨진 직업 ‘별빛 조각사', 게이머 ‘위드’의 직업이다. 그는 수없이 많은 게임의 랭커를 따낸 슈퍼 
                  게이머이다. 그런 그가 시작한 게임 ‘제논월드'. 전세계 게임 점유율 1위, 인비저블 하이퍼 필링 슈트 기술이 들어간 최초의 게임, 엄청난 기술력과,
                  그래픽으로 현실적인 몰입도를 자랑하는 게임이다. 많은 게이머들이 이 게임에 도전해서 열을 내고 있으며, 게임 물가가 현실 물가와 맞먹을 정도로 
@@ -318,13 +319,13 @@ function Main() {
                   y: 0,
                   transition: {
                   type: "spring",
-                  duration: 2,
+                  duration: 4,
                   }
               }}
             >
               <div className="section-4-desc-wordRight">
                 <p className="f-b30b">픽셀전쟁</p>
-                <p className="f-b25 c-f-c666">최원호</p>
+                <p className="f-b20 c-f-c666">최원호</p>
                 <p className="f-b15 c-f-c666">  어느날 인류는 상상도 못할 괴생명체를 발견하게 된다. 첫 만남은 그렇게 끔찍하지 않았지만, 이는 
                 괴물과의 전쟁의 서막을 암시하는 것이었다. 처음으로 발견된 생명체는 바로 ‘슬라임'이었다. 현실에는 없는 생명체이지만, 게임이나 영화 속에 
                 존재하는 젤리 상태의 생명체, 이 생명체의 특징은 신체를 구성하는 최소 단위가, 세포나 원자같은 것이 아니라, 픽셀이라는 것. 마치 게임의 
@@ -347,14 +348,14 @@ function Main() {
                   y: 0,
                   transition: {
                   type: "spring",
-                  duration: 2,
+                  duration: 4,
                   }
               }}
             >
               <img src={Section4Img4} />
               <div className="section-4-desc-wordLeft">
                 <p className="f-b30b">워노화신</p>
-                <p className="f-b25 c-f-c666">최원호</p>
+                <p className="f-b20 c-f-c666">최원호</p>
                 <p className="f-b15 c-f-c666"> 무수히 많은 컴퓨터 속 단 하나, 특별한 모니터. 어느 날 한 남자는 모니터 속을 들어갈 수 있게 되는 
                 능력을 얻게 된다. 막막한 세상 속에서 혼자 떠도는 한 남자. 이 남자는 돈도 없고 집도 없는 빈곤한 형편이다. 마지막 술 한잔을 걸치고 남은 
                 노잣돈으로 피씨방이나 들러서 깽판을 친다. 싸움이 난 현장에서 주인공은 뭔지 모를 몽둥이같은 것에 맞고 모니터에 부딪혀 쓰러진다. 그리고 
@@ -369,13 +370,13 @@ function Main() {
                   y: 0,
                   transition: {
                   type: "spring",
-                  duration: 2,
+                  duration: 4,
                   }
               }}
             >
               <div className="section-4-desc-wordRight">
                 <p className="f-b30b">왕의 전쟁</p>
-                <p className="f-b25 c-f-c666">최원호</p>
+                <p className="f-b20 c-f-c666">최원호</p>
                 <p className="f-b15 c-f-c666"> 숨겨진 직업 ‘별빛 조각사', 게이머 ‘위드’의 직업이다. 그는 수없이 많은 게임의 랭커를 따낸 슈퍼 
                  게이머이다. 그런 그가 시작한 게임 ‘제논월드'. 전세계 게임 점유율 1위, 인비저블 하이퍼 필링 슈트 기술이 들어간 최초의 게임, 엄청난 기술력과,
                  그래픽으로 현실적인 몰입도를 자랑하는 게임이다. 많은 게이머들이 이 게임에 도전해서 열을 내고 있으며, 게임 물가가 현실 물가와 맞먹을 정도로 
@@ -392,14 +393,14 @@ function Main() {
                   y: 0,
                   transition: {
                   type: "spring",
-                  duration: 2,
+                  duration: 4,
                   }
               }}
             >
               <img className="section-4-desc-wordLeft-img6" src={Section4Img6} />
               <div className="section-4-desc-wordLeft">
                 <p className="f-b30b">세계 최강</p>
-                <p className="f-b25 c-f-c666">최원호</p>
+                <p className="f-b20 c-f-c666">최원호</p>
                 <p className="f-b15 c-f-c666">  어느날 인류는 상상도 못할 괴생명체를 발견하게 된다. 첫 만남은 그렇게 끔찍하지 않았지만, 이는 
                 괴물과의 전쟁의 서막을 암시하는 것이었다. 처음으로 발견된 생명체는 바로 ‘슬라임'이었다. 현실에는 없는 생명체이지만, 게임이나 영화 속에 
                 존재하는 젤리 상태의 생명체, 이 생명체의 특징은 신체를 구성하는 최소 단위가, 세포나 원자같은 것이 아니라, 픽셀이라는 것. 마치 게임의 
@@ -410,6 +411,28 @@ function Main() {
           </Stack>
         </div>
       </div>
+
+      <div className="section-5">
+        
+        <div className="section-5-desc">
+          <p className="c-f-white f-h1">당신을 기다리는</p>
+          <p className="c-f-white f-h1">10,000권의 작품!</p>
+        </div>
+        <motion.div className="section-5-motion"
+          animate={{ 
+            x: [-70, -1900, -70,]
+          }} 
+          transition={{
+            duration: 40,
+            repeat: Infinity,
+            repeatDelay: 0
+          }}  
+        >
+          <img className="section-5-motion-img" src={manyBooks} />
+        </motion.div>
+      </div>
+
+
     </div>
     );
   };
