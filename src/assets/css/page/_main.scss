@@ -1,4 +1,6 @@
 .section {
+    padding:175px 0;
+
     &-1 {
         width: 100vw;
         height: 100vh;
@@ -12,12 +14,59 @@
         }
     }
     &-2 {
-        height: 10000px;
+        justify-self: center;
+        width: 80vw;
+        max-width: 1400px;
+        &-desc {
+            &-quotes1 {
+                transform: rotate(180deg);
+            }
+            &-small {
+                padding-top: 20px;
+            }
+        }
+        &-book {
+            margin-top: 100px;
+            align-items: center;
+            &-box {
+                border: 1px solid $black;
+                border-radius: 50px;
+                padding: 10px 30px;
+            }
+            &-exam {
+                cursor: pointer;
+                &:hover {
+                    box-shadow: 0 10px 30px 0px rgb(0,0,0,0.6);
+                }
+                transition: 1s;
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+                width: 343px;
+                border-radius: 10px;
+                background-color: $eee;
+                box-shadow: 0 10px 30px -10px rgb(0,0,0,0.4);
+                &:not(:last-child) {
+                    margin-right: 60px;
+                }
+                &-img {
+                    box-shadow: 4px 4px 15px 0 rgb(0,0,0,0.25);
+                    width: 200px;
+                }
+                &-letter {
+                    background-color: $white;
+                    padding: 30px;
+                    width: calc( 100% - 60px );
+                    border-radius: 0 0 10px 10px;
+                }
+            }
+        }
     }
 }
 
 .banner {
-    width: 1400px;
+    width: 80vw;
+    max-width: 1400px;
     padding-top: 200px;
     &-small {
         font-family: 'Song Myung', serif;
@@ -35,18 +84,40 @@
     }
     &-img {
         position: absolute;
-       
         z-index: -1;
         bottom: 0;
-        width: 1400px;
+        width: 80vw;
+        max-width: 1400px;
         display: flex;
         justify-content: end;
         &-png {
             width: 120vh;
-            margin-right: -10vh;
-            
         }
-        
-        
     }
+    &-desc {
+        position: absolute;
+        z-index: 1;
+        width: 100vw;
+        height: 250px;
+        bottom: 0;
+        background-color: rgb(0,0,0,0.5);
+        &-box {
+            width: fit-content;
+            padding: 10px 20px;
+            border: 1px solid $white;
+            border-radius: 30px;
+        }
+        &-ul>li {
+            display: flex;
+            align-items: center;
+            &:not(:last-child)::after {
+                content: '';
+                width: 5px;
+                height: 5px;
+                margin: 0 15px;
+                background-color: $white;
+            }
+        }
+    }
+        
 }

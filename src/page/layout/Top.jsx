@@ -5,6 +5,10 @@ import $ from "jquery";
 import LoginButton from "../component/LoginButton";
 import LoginButton2 from "../component/LoginButton2";
 
+//img
+import Logo from "../../assets/img/Logo.png";
+import Logo2 from "../../assets/img/Logo2.png";
+
 class Top extends Component {
   // componentDidUpdate() {
   //   window.scrollX
@@ -13,7 +17,7 @@ class Top extends Component {
     $(document).ready(function() {
       $('.top2').hide();
       $(window).scroll(function() {
-            if ($(this).scrollTop() > 900) {
+            if ($(this).scrollTop() > 800) {
               $('.top').fadeOut();
               $('.top2').fadeIn();
             } else {
@@ -28,7 +32,7 @@ class Top extends Component {
       <>
         <Box className="flex justify-space top">
             <div className="flex align-center top-left">
-                <img className="Logo" src="img/Logo.png"/>
+                <img className="Logo" src={Logo}/>
                 <p className="f-logo c-f-white">Choi</p>
             </div>
             <div className="top-right align-center flex ">
@@ -37,7 +41,7 @@ class Top extends Component {
         </Box>
         <Box className="flex justify-space top2">
             <div className="flex align-center top-left">
-                <img className="Logo" src="img/Logo2.png"/>
+                <img className="Logo" src={Logo2}/>
                 <p className="f-logo c-f-primary">Choi</p>
             </div>
             <div className="top-right align-center flex ">
