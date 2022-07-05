@@ -1220,8 +1220,8 @@ function Main600() {
             <img src={Quotes}/>
           </div>
           <div className="flex column align-center">
-            <p className="f-h2"> 책 고를 시간을 아껴줄 </p>
-            <p className="f-h2"> 초이 프리미엄 스릴러 </p>
+            <p className="f-mh2"> 책 고를 시간을 아껴줄 </p>
+            <p className="f-mh2"> 초이 프리미엄 스릴러 </p>
           </div>
           <div >
             <img src={Quotes}/>
@@ -1239,8 +1239,8 @@ function Main600() {
               }
           }}
         >
-            <p className="f-b25">세계 필력 대회 1위 우승자 작가의 소설</p>
-            <p className="f-b25">믿고 보는 초이 프리미엄</p>
+            <p className="f-b20">세계 필력 대회 1위 우승자 작가의 소설</p>
+            <p className="f-b20">믿고 보는 초이 프리미엄</p>
         </motion.div>
         <Stack className="sm-section-2-book" spacing='50px'>
           <Box className="sm-section-2-book-box f-b30b"> 강력 추천 </Box>
@@ -1337,7 +1337,7 @@ function Main600() {
               }
           }}
         >
-          <p className="f-h2 c-f-white flex"> 하루 평균 155분</p>
+          <p className="f-mh2 c-f-white flex"> 하루 평균 155분</p>
           <img src={time} className='sm-section-3-img1'/>
         </motion.div>
         <img src={watch} className='sm-section-3-img2'/>
@@ -1354,10 +1354,13 @@ function Main600() {
           }}
         >
           <p >
-            <span className="f-h2">독서,</span> 그 이상의 매력 
+            <span className="f-h3b">독서,</span> 그 이상의 매력 
           </p>
           <p >
-            <span className="f-h2">출퇴근</span> 시간의 <span className="f-h2">지루함 끝</span>
+            <span className="f-h3b">출퇴근</span> 시간의 
+          </p>
+          <p>
+            <span className="f-h3b">지루함 끝</span>
           </p>
         </motion.div>
       </Stack>
@@ -1377,12 +1380,13 @@ function Main600() {
         >
           <img src={Gift} />
           <div className=" column align-center">
-            <p className="f-h2">라이트 노벨부터 장편까지</p>
-            <p className="f-h2">추가 과금 '0원'</p>
+            <p className="f-mh2">라이트 노벨부터</p>
+            <p className="f-mh2">장편까지</p>
+            <p className="f-mh2">추가 과금 '0원'</p>
           </div>
-          <div className="f-h3 c-f-c666 column align-center">
-            <p className="f-h3">권수가 많아도 걱정하지 마세요</p>
-            <p className="f-h3">초이는 무제한이니까요</p>
+          <div className="f-mh3 c-f-c666 column align-center">
+            <p className="f-mh3">권수가 많아도 걱정하지 마세요</p>
+            <p className="f-mh3">초이는 무제한이니까요</p>
           </div>
         </motion.div>
 
@@ -1664,14 +1668,14 @@ function Main600() {
                   }
               }}
             >
-                <p className="c-f-white f-h1">당신을 기다리는</p>
-                <p className="c-f-white f-h1">10,000권의 작품!</p>
+                <p className="c-f-white f-mh2">당신을 기다리는</p>
+                <p className="c-f-white f-mh2">10,000권의 작품!</p>
             </motion.div>
           </div>
       </div>
 
       <div className="sm-section section-6" >
-          <p className="c-f-white f-h1">자주 묻는 질문 </p>
+          <p className="c-f-white f-mh2">자주 묻는 질문 </p>
           <Stack className="sm-section-6-faq" spacing="30px">
             <Accordion className="sm-section-6-faq-a">
               <AccordionSummary 
@@ -1725,7 +1729,7 @@ function Main600() {
       </div>
 
       <div className='sm-footer' >
-        <Stack className="msm-ooter-box" spacing='30px'>
+        <Stack className="sm-footer-box" spacing='30px'>
           <div className='justify-space flex'>
             <p className='f-b20b'>(주) 초이의 소설맛집 </p>
             <Stack spacing='15px' direction='row'>
