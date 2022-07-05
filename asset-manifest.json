@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/choi_novel/static/css/main.6a7466db.css",
-    "main.js": "/choi_novel/static/js/main.0ff63379.js",
+    "main.css": "/choi_novel/static/css/main.ffc9e1c0.css",
+    "main.js": "/choi_novel/static/js/main.529869bf.js",
     "static/media/Section1.png": "/choi_novel/static/media/Section1.db850065c3845c19a932.png",
     "static/media/section4_img3.png": "/choi_novel/static/media/section4_img3.a7866688082a301140c1.png",
     "static/media/manyBooks.png": "/choi_novel/static/media/manyBooks.be81ba30bc5fb6d698c8.png",
@@ -17,11 +17,11 @@
     "static/media/book3.png": "/choi_novel/static/media/book3.4c3286ab1be366f4232a.png",
     "static/media/book2.png": "/choi_novel/static/media/book2.78ca12e31f3602c2d625.png",
     "index.html": "/choi_novel/index.html",
-    "main.6a7466db.css.map": "/choi_novel/static/css/main.6a7466db.css.map",
-    "main.0ff63379.js.map": "/choi_novel/static/js/main.0ff63379.js.map"
+    "main.ffc9e1c0.css.map": "/choi_novel/static/css/main.ffc9e1c0.css.map",
+    "main.529869bf.js.map": "/choi_novel/static/js/main.529869bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a7466db.css",
-    "static/js/main.0ff63379.js"
+    "static/css/main.ffc9e1c0.css",
+    "static/js/main.529869bf.js"
   ]
 }
