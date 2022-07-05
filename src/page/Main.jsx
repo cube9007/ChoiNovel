@@ -66,11 +66,11 @@ function Main() {
             x: 0
           }}
           whileInView={{ opacity: 1,
-              x: 100,
-              transition: {
-              type: "spring",
-              duration: 5,
-              }
+            x: 100,
+            transition: {
+            type: "spring",
+            duration: 5,
+            }
           }}
         >
           <img className="banner-img-png" src={Section1}></img>
@@ -423,35 +423,39 @@ function Main() {
       </div>
 
       <div className="section-5">
-        <div className="section-5-desc">
-          <motion.div 
-            initial={{ opacity: 0, 
-              y: 20
-            }}
-            whileInView={{ opacity: 1,
-                y: 0,
-                transition: {
-                type: "spring",
-                duration: 4,
-                }
-            }}
+        <div >
+          <motion.div className="section-5-motion"
+            animate={{ 
+              x: [-70, -1900, -70,]
+            }} 
+            transition={{
+              duration: 40,
+              repeat: Infinity,
+              repeatDelay: 0
+            }}  
           >
-            <p className="c-f-white f-h1">당신을 기다리는</p>
-            <p className="c-f-white f-h1">10,000권의 작품!</p>
+            <img className="section-5-motion-img" src={manyBooks} />
           </motion.div>
         </div>
-        <motion.div className="section-5-motion"
-          animate={{ 
-            x: [-70, -1900, -70,]
-          }} 
-          transition={{
-            duration: 40,
-            repeat: Infinity,
-            repeatDelay: 0
-          }}  
-        >
-          <img className="section-5-motion-img" src={manyBooks} />
-        </motion.div>
+        <div className="section-5-desc"
+            
+          >
+            <motion.div
+              initial={{ opacity: 0, 
+                y: 20
+              }}
+              whileInView={{ opacity: 1,
+                  y: 0,
+                  transition: {
+                  type: "spring",
+                  duration: 4,
+                  }
+              }}
+            >
+              <p className="c-f-white f-h1">당신을 기다리는</p>
+              <p className="c-f-white f-h1">10,000권의 작품!</p>
+            </motion.div>
+          </div>
       </div>
 
       <div className="section section-6" >
@@ -465,7 +469,7 @@ function Main() {
               </AccordionSummary>
               <AccordionDetails >
                 <p className="f-b20 c-f-c666">물론입니다. 결제 후 콘텐츠 다운로드 및 열람을 하지 않으셨다면 전액 환불해 드리고 있어요.</p>
-                <p className="f-b20 c-f-c666"> <span className='f-b20b'>[밀리 &gt; 관리 &gt; 구독관리 &gt; 결제 내역 확인]</span>에서 직접 환불이 가능하며,</p>
+                <p className="f-b20 c-f-c666"> <span className='f-b20b'>[초이 &gt; 관리 &gt; 구독관리 &gt; 결제 내역 확인]</span>에서 직접 환불이 가능하며,</p>
                 <p className="f-b20 c-f-c666">해결이 어려운 경우 고객센터로 문의해 주세요.</p>
               </AccordionDetails>
             </Accordion>
@@ -478,7 +482,7 @@ function Main() {
               </AccordionSummary>
               <AccordionDetails >
                 <p className="f-b20 c-f-c666">다음달부터 결제되지 않도록 수수료 없이 언제든지 해지하실 수 있습니다.</p>
-                <p className="f-b20 c-f-c666"> <span className='f-b20b'>[밀리 &gt; 관리 &gt; 구독관리 &gt; 자동결제 해지]</span> 메뉴를 통해 기간에 상관없이 직접 가능해요.</p>
+                <p className="f-b20 c-f-c666"> <span className='f-b20b'>[초이 &gt; 관리 &gt; 구독관리 &gt; 자동결제 해지]</span> 메뉴를 통해 기간에 상관없이 직접 가능해요.</p>
               </AccordionDetails>
             </Accordion>
 
@@ -490,7 +494,7 @@ function Main() {
               </AccordionSummary>
               <AccordionDetails >
                 <p className="f-b20 c-f-c666">네, 초이 회원이라면 누구나 첫 정기구독 신청 시 1회 제공됩니다.</p>
-                <p className="f-b20 c-f-c666"> <span className='f-b20b'>[밀리 &gt; 관리 &gt; 구독관리 &gt; 결제 내역 확인]</span>에서 직접 환불이 가능하며,</p>
+                <p className="f-b20 c-f-c666"> <span className='f-b20b'>[초이 &gt; 관리 &gt; 구독관리 &gt; 결제 내역 확인]</span>에서 직접 환불이 가능하며,</p>
                 <p className="f-b20 c-f-c666">해결이 어려운 경우 고객센터로 문의해 주세요.</p>
               </AccordionDetails>
             </Accordion>

@@ -9,10 +9,8 @@ import LoginButton2 from "../component/LoginButton2";
 import Logo from "../../assets/img/Logo.png";
 import Logo2 from "../../assets/img/Logo2.png";
 
+
 class Top extends Component {
-  // componentDidUpdate() {
-  //   window.scrollX
-  // }
   componentDidMount() {
     $(document).ready(function() {
       $('.top2').hide();

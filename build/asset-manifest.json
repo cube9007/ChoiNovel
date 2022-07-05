@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/choi_novel/static/css/main.6a7466db.css",
+    "main.js": "/choi_novel/static/js/main.09fa4098.js",
+    "static/media/Section1.png": "/choi_novel/static/media/Section1.db850065c3845c19a932.png",
+    "static/media/section4_img3.png": "/choi_novel/static/media/section4_img3.a7866688082a301140c1.png",
+    "static/media/manyBooks.png": "/choi_novel/static/media/manyBooks.be81ba30bc5fb6d698c8.png",
+    "static/media/section4_img6.png": "/choi_novel/static/media/section4_img6.594695cd618505d06d69.png",
+    "static/media/section4_img5.png": "/choi_novel/static/media/section4_img5.eea195fa1d6d39bb68f5.png",
+    "static/media/section4_img2.png": "/choi_novel/static/media/section4_img2.02e1840bf864f0926f97.png",
+    "static/media/watch.png": "/choi_novel/static/media/watch.3c47fbe15a91c178cac7.png",
+    "static/media/section4_img4.png": "/choi_novel/static/media/section4_img4.d92fca8154dd2de64983.png",
+    "static/media/section4_img1.png": "/choi_novel/static/media/section4_img1.f1537f2db823abaf8f70.png",
+    "static/media/gift.png": "/choi_novel/static/media/gift.8e4b84eb6d3d780fb87b.png",
+    "static/media/time.png": "/choi_novel/static/media/time.54a51c03994e72b2628a.png",
+    "static/media/book1.png": "/choi_novel/static/media/book1.5e2076e2e67e690fbd62.png",
+    "static/media/book3.png": "/choi_novel/static/media/book3.4c3286ab1be366f4232a.png",
+    "static/media/book2.png": "/choi_novel/static/media/book2.78ca12e31f3602c2d625.png",
+    "index.html": "/choi_novel/index.html",
+    "main.6a7466db.css.map": "/choi_novel/static/css/main.6a7466db.css.map",
+    "main.09fa4098.js.map": "/choi_novel/static/js/main.09fa4098.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a7466db.css",
+    "static/js/main.09fa4098.js"
+  ]
+}
