@@ -1220,8 +1220,9 @@ function Main600() {
             <img src={Quotes}/>
           </div>
           <div className="flex column align-center">
-            <p className="f-mh2"> 책 고를 시간을 아껴줄 </p>
-            <p className="f-mh2"> 초이 프리미엄 스릴러 </p>
+            <p className="f-mh2"> 책 고를 시간을 </p>
+            <p className="f-mh2"> 아껴줄  </p>
+            <p className="f-mh2"> 초이 프리미엄</p>
           </div>
           <div >
             <img src={Quotes}/>
