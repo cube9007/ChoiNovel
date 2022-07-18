@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/choi_novel/static/css/main.af61cde3.css",
-    "main.js": "/choi_novel/static/js/main.68220a97.js",
+    "main.css": "/choi_novel/static/css/main.d169a1df.css",
+    "main.js": "/choi_novel/static/js/main.6cd79d15.js",
     "static/media/Section1.png": "/choi_novel/static/media/Section1.db850065c3845c19a932.png",
     "static/media/section4_img3.png": "/choi_novel/static/media/section4_img3.a7866688082a301140c1.png",
     "static/media/manyBooks.png": "/choi_novel/static/media/manyBooks.be81ba30bc5fb6d698c8.png",
     "static/media/section4_img6.png": "/choi_novel/static/media/section4_img6.594695cd618505d06d69.png",
+    "static/media/background.png": "/choi_novel/static/media/background.a98af8dee52d3d2acf62.png",
     "static/media/section4_img5.png": "/choi_novel/static/media/section4_img5.eea195fa1d6d39bb68f5.png",
     "static/media/section4_img2.png": "/choi_novel/static/media/section4_img2.02e1840bf864f0926f97.png",
     "static/media/watch.png": "/choi_novel/static/media/watch.3c47fbe15a91c178cac7.png",
@@ -17,11 +18,11 @@
     "static/media/book3.png": "/choi_novel/static/media/book3.4c3286ab1be366f4232a.png",
     "static/media/book2.png": "/choi_novel/static/media/book2.78ca12e31f3602c2d625.png",
     "index.html": "/choi_novel/index.html",
-    "main.af61cde3.css.map": "/choi_novel/static/css/main.af61cde3.css.map",
-    "main.68220a97.js.map": "/choi_novel/static/js/main.68220a97.js.map"
+    "main.d169a1df.css.map": "/choi_novel/static/css/main.d169a1df.css.map",
+    "main.6cd79d15.js.map": "/choi_novel/static/js/main.6cd79d15.js.map"
   },
   "entrypoints": [
-    "static/css/main.af61cde3.css",
-    "static/js/main.68220a97.js"
+    "static/css/main.d169a1df.css",
+    "static/js/main.6cd79d15.js"
   ]
 }
