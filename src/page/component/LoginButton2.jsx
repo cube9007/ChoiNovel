@@ -1,13 +1,16 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import { Button } from "@mui/material";
 
 class LoginButton2 extends Component {
   render() {
     return (
       <>
-        <Button className="btn-login-primary" variant='outlined'>
-            로그인    
-        </Button>
+        <Link to='/login'>
+          <Button className="btn-login-primary" variant='outlined'>
+              로그인    
+          </Button>
+        </Link>
       </>
     );
   };

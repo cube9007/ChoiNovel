@@ -40,9 +40,9 @@ import sns5 from "../assets/img/sns5.png"
 
 function Main1920() {
   return (
-    <div className="flex column align-center">
+    <div className="flex column align-center overflow-hidden body">
 
-      <div className="section-1 justify-center">
+      <div className="section-1 justify-center ">
         <div className="section-1-bg"></div>
         <Top className='topComponent'/>
         <Fix />

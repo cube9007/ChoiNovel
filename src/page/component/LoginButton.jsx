@@ -1,13 +1,17 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import { Button } from "@mui/material";
+
 
 class LoginButton extends Component {
   render() {
     return (
       <>
-        <Button className="btn-login-white" variant='outlined' color="white">
-            로그인    
-        </Button>
+        <Link to='/login'>
+          <Button className="btn-login-white" variant='outlined' color="white">
+              로그인    
+          </Button>
+        </Link>
       </>
     );
   };

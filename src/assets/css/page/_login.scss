@@ -1,0 +1,34 @@
+.login {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    // border: 1px solid blue;
+    &-bg {
+        background-image: url(../../img/Login/background.png);
+        height: 100%;
+        width: 100%;
+        // border: 1px solid red;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &-page {
+        min-width: 400px;
+        width: 400px;
+        padding: 200px 50px 0 50px;
+    }
+}
+
+.sm {
+    &-login {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid blue;
+        &-page {
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.textField {
+    height: 50px;
+    &.MuiFormControl-root {
+        
+        &>.MuiOutlinedInput-root {
+            height: 50px !important;
+            &>.MuiOutlinedInput-input {
+                // height: 50px !important;
+            }
+        }
+        &>.MuiInputBase-root {
+            // height: 50px !important;
+        }
+    }
+    &-login {
+        // height: 30px;
+        // border: 1px solid red;
+        &.MuiTextField-root {
+            height: 50px;
+            
+            &>.MuiOutlinedInput-root {
+                height: 50px !important;
+                &>.MuiInputBase-input {
+                    // margin: 0 !important;
+                }
+                &>.MuiOutlinedInput-notchedOutline {
+                    height: 50px;   
+                    border-radius: 5px;                 
+                }
+                &>.MuiOutlinedInput-input {
+                    // height: 35px;
+                    // padding: 0px;
+                }
+            }
+            &>.MuiInputLabel-root {
+                position: absolute;
+                // top: -10px;
+            }
+        }
+    }
+}
