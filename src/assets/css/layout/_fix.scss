@@ -3,45 +3,56 @@
         width: 400px;
         background-color: $c444;
         padding: 20px 0;
-        position: fixed;
-        margin: 0 auto;
+        
         border-radius: 50px;
         color: $white;
         display: flex;
         justify-content: center;
         box-shadow: 0 0 25px 0 rgb(0,0,0,0.25);
-        bottom: 40px;
         cursor: pointer;
-        z-index: 1;
         &:hover {
             box-shadow: 0 0 25px 0 rgb(0,0,0,0.4);
             background-color: $black;
             transition: 0.5s;
         }
     }
-    
+    &-link {
+        position: fixed;
+        bottom: 40px;
+        margin: 0 auto;
+        z-index: 1;
+        &.MuiTypography-root {
+            text-decoration-line: none;
+        }
+    }
 }
 
 .fix600 {
     &.MuiButton-root {
-        width: 80%;
+        width: 100%;
+        margin: 0 auto;
         background-color: $c444;
         padding: 20px 0;
-        position: fixed;
-        margin: 0 auto;
         border-radius: 50px;
         color: $white;
         display: flex;
         justify-content: center;
         box-shadow: 0 0 25px 0 rgb(0,0,0,0.25);
-        bottom: 40px;
         cursor: pointer;
-        z-index: 1;
         &:hover {
             box-shadow: 0 0 25px 0 rgb(0,0,0,0.4);
             background-color: $black;
             transition: 0.5s;
         }
     }
-    
+    &-link {
+        width: 80%;
+        position: fixed;
+        bottom: 40px;
+        margin: 0 auto;
+        z-index: 1;
+        &.MuiTypography-root {
+            text-decoration-line: none;
+        }
+    }
 }
