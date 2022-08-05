@@ -54,7 +54,9 @@ function LoginPage() {
             />  </FormControl>
         </div>
         <div className="loginPage-login">
+          <Link to='/home'>
             <Button className="loginPage-login-button" fullWidth variant="contained" disableElevation> 로그인 </Button>
+          </Link>
         </div>
         <div className="loginPage-bottom f-b14 flex">
             <p>회원가입</p>

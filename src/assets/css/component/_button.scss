@@ -29,6 +29,23 @@
             }
         }
     }
+    &-circle {
+        &.MuiButton-root {
+            border-radius: 50px;
+            min-width: 50px !important;
+            height: 50px;
+            padding: 0;
+        }
+    }
+    &-circle2 {
+        &.MuiButton-root {
+            border-radius: 70px;
+            min-width: 70px !important;
+            height: 70px;
+            padding: 0;
+            color: black;
+        }
+    }
 }
 
 //&.MuiButton-root = 전체 박스

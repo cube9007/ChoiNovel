@@ -14,6 +14,9 @@ import Top from "./layout/Top";
 import Top600 from "./layout/Top600";
 import Fix from "./layout/Fix";
 import Fix600 from "./layout/Fix600";
+import FooterSM from "./layout/FooterSM";
+import FooterMD from "./layout/FooterMD";
+import FooterLG from "./layout/FooterLG";
 
 //img
 import Section1 from "../assets/img/Section1.png";
@@ -32,11 +35,8 @@ import Section4Img4 from "../assets/img/section4_img4.png"
 import Section4Img5 from "../assets/img/section4_img5.png"
 import Section4Img6 from "../assets/img/section4_img6.png"
 import manyBooks from "../assets/img/manyBooks.png"
-import sns1 from "../assets/img/sns1.png"
-import sns2 from "../assets/img/sns2.png"
-import sns3 from "../assets/img/sns3.png"
-import sns4 from "../assets/img/sns4.png"
-import sns5 from "../assets/img/sns5.png"
+
+
 
 function Main1920() {
   return (
@@ -510,38 +510,7 @@ function Main1920() {
           </Stack>          
       </div>
 
-      <div className='footer' >
-        <Stack className="footer-box" spacing='30px'>
-          <div className='justify-space flex'>
-            <p className='f-b20b'>(주) 초이의 소설맛집 </p>
-            <Stack spacing='15px' direction='row'>
-              <img className="footer-sns" src={sns1}></img>
-              <img className="footer-sns" src={sns2}></img>
-              <img className="footer-sns" src={sns3}></img>
-              <img className="footer-sns" src={sns4}></img>
-              <img className="footer-sns" src={sns5}></img>
-            </Stack>
-          </div>
-          <Stack spacing="10px" className="f-b12 c-f-c666">
-            <Stack spacing="30px" direction='row'>
-              <p>대표이사 : 최원호</p>
-              <p>사업자등록번호 : 000-00-000000 </p>
-              <p>호스팅 제공자 : (주) 초이의 소설맛집 </p>
-            </Stack>
-            <Stack spacing="30px" direction='row'>
-              <p>주소 : 서울특별시 금천구 남부순환로 112길 35</p>
-              <p>통신판매업 신고번호 : 2022-서울가산-2022호</p>
-            </Stack>
-            <Stack spacing="30px" direction='row'>
-              <p>마케팅 제휴 문의 : cube9007@naver.com</p>
-              <p>고객정보보호 책임자 : 최원호(cube9007@naver.com)</p>
-            </Stack>
-          </Stack>
-          <p className="f-b12 c-f-c666">
-            Copyright©2022 초이의 소설맛집 All Rights Reserved.
-          </p>
-        </Stack>
-      </div>
+      <FooterLG />
     </div>
     );
   };
@@ -1116,38 +1085,7 @@ function Main1200() {
           </Stack>          
       </div>
 
-      <div className='md-footer' >
-        <Stack className="md-footer-box" spacing='30px'>
-          <div className='justify-space flex'>
-            <p className='f-b20b'>(주) 초이의 소설맛집 </p>
-            <Stack spacing='15px' direction='row'>
-              <img className="md-footer-sns" src={sns1}></img>
-              <img className="md-footer-sns" src={sns2}></img>
-              <img className="md-footer-sns" src={sns3}></img>
-              <img className="md-footer-sns" src={sns4}></img>
-              <img className="md-footer-sns" src={sns5}></img>
-            </Stack>
-          </div>
-          <Stack spacing="10px" className="f-b12 c-f-c666">
-            <Stack spacing="30px" direction='row'>
-              <p>대표이사 : 최원호</p>
-              <p>사업자등록번호 : 000-00-000000 </p>
-              <p>호스팅 제공자 : (주) 초이의 소설맛집 </p>
-            </Stack>
-            <Stack spacing="30px" direction='row'>
-              <p>주소 : 서울특별시 금천구 남부순환로 112길 35</p>
-              <p>통신판매업 신고번호 : 2022-서울가산-2022호</p>
-            </Stack>
-            <Stack spacing="30px" direction='row'>
-              <p>마케팅 제휴 문의 : cube9007@naver.com</p>
-              <p>고객정보보호 책임자 : 최원호(cube9007@naver.com)</p>
-            </Stack>
-          </Stack>
-          <p className="f-b12 c-f-c666">
-            Copyright©2022 초이의 소설맛집 All Rights Reserved.
-          </p>
-        </Stack>
-      </div>
+      <FooterMD />
     </div>
     );
   };
@@ -1715,30 +1653,7 @@ function Main600() {
           </Stack>          
       </div>
 
-      <div className='sm-footer' >
-        <Stack className="sm-footer-box" spacing='30px'>
-          <p className='f-b20b'>(주) 초이의 소설맛집 </p>
-          <Stack spacing='15px' direction='row'>
-            <img className="sm-footer-sns" src={sns1}></img>
-            <img className="sm-footer-sns" src={sns2}></img>
-            <img className="sm-footer-sns" src={sns3}></img>
-            <img className="sm-footer-sns" src={sns4}></img>
-            <img className="sm-footer-sns" src={sns5}></img>
-          </Stack>
-          <Stack spacing="10px" className="f-b12 c-f-c666">
-            <p>대표이사 : 최원호</p>
-            <p>사업자등록번호 : 000-00-000000 </p>
-            <p>호스팅 제공자 : (주) 초이의 소설맛집 </p>
-            <p>주소 : 서울특별시 금천구 남부순환로 112길 35</p>
-            <p>통신판매업 신고번호 : 2022-서울가산-2022호</p>
-            <p>마케팅 제휴 문의 : cube9007@naver.com</p>
-            <p>고객정보보호 책임자 : 최원호(cube9007@naver.com)</p>
-          </Stack>
-          <p className="f-b12 c-f-c666">
-            Copyright©2022 초이의 소설맛집 All Rights Reserved.
-          </p>
-        </Stack>
-      </div>
+      <FooterSM />
     </div>
     );
   };

@@ -3,6 +3,7 @@ import React from "react";
 import { Hidden, Box, Button } from '@mui/material';
 
 import Book from '../assets/img/Price/book.png'
+import { Link } from "react-router-dom";
 function Price1920() {
     return (
       <div>
@@ -61,11 +62,13 @@ function Price1920() {
               <p className="">• 무료 체험 중 해지할 경우 서비스가 즉시 종료되고 구독 결제가 이루어지지 않습니다.</p>
           </div>
         </Box>
-        <Button color="primary" variant="conatined" disableElevation className="price-button">
-          <div>
-              0원으로 시작하기
-          </div>
-        </Button>
+        <Link to='/home'>
+            <Button color="primary" variant="conatined" disableElevation className="price-button">
+                <div>
+                    0원으로 시작하기
+                </div>
+            </Button>
+        </Link>
       </div>
     );
 }
@@ -128,11 +131,13 @@ function Price600() {
               <p className="">• 무료 체험 중 해지할 경우 서비스가 즉시 종료되고 구독 결제가 이루어지지 않습니다.</p>
           </div>
         </Box>
-        <Button color="primary" variant="conatined" disableElevation className="price600-button">
-          <div>
-              0원으로 시작하기
-          </div>
-        </Button>
+        <Link to='/home'>
+            <Button color="primary" variant="conatined" disableElevation className="price600-button">
+            <div>
+                0원으로 시작하기
+            </div>
+            </Button>
+        </Link>
       </div>
     );
 }
