@@ -6,13 +6,29 @@
         &-banner{
             background-size: cover;
             background-position: center;
+            position: relative;
             width: 100vw;
             height: 800px;
             &-desc {
                 width: 80%;
+                max-width: 1400px;
                 margin: 0 auto;
+                position: relative;
+                z-index: 2;
                 &-1{
                     margin-top: 155px;
+                    &-img {
+                        display: flex;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        width: 80%;
+                        max-width: 1400px;
+                        margin: 0 auto;
+                        &>img {
+                            height: 800px;
+                        }
+                    }
                     &>p:nth-child(1){
                         font-size: 75px;
                         color: white;
@@ -34,14 +50,39 @@
                         margin-top: 50px;
                         letter-spacing: 0.08em;
                     }
+                    
                 }
                 &-2 {
                     margin-top: 133px;
+                    &-img {
+                        display: flex;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        width: 80%;
+                        max-width: 1400px;
+                        margin: 0 auto;
+                        &>img {
+                            height: 800px;
+                        }
+                    }
                 }
                 &-3 {
                     margin-top: 100px;
                     display: flex;
                     flex-direction: column;
+                    &-img {
+                        display: flex;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        width: 80%;
+                        max-width: 1400px;
+                        margin: 0 auto;
+                        &>img {
+                            height: 800px;
+                        }
+                    }
                     &>p:nth-child(1) {
                         width: fit-content;
                         background-color: white;
@@ -74,17 +115,18 @@
             }
         }
         &-banner1 {
-            background-image: url(../../img/Home/banner1.png);
+            background-color: #17283A;
         }
         &-banner2 {
-            background-image: url(../../img/Home/banner2.png);
+            background-color: black;
         }
         &-banner3 {
-            background-image: url(../../img/Home/banner3.png);
+            background-color: #F0CED7;
         }
         &-arrow {
             display: flex;
             position: absolute;
+            z-index: 3;
             width: 100vw;
             justify-content: space-between;
             margin-top: 370px;
@@ -125,6 +167,7 @@
         padding-top: 250px;
         padding-bottom: 200px;
         width: 80%;
+        max-width: 1400px;
         margin: 0 auto;
         &>div:last-child {
             margin-top: 100px;
@@ -149,24 +192,23 @@
             &>div {
                 &>img {
                     margin-bottom: 10px;
+                    width: 100%;
                 }
             }
             &>div:nth-child(1) {
+                width: 30%;
                 &>img {
                     margin-top: 82px;
-                    width: 24vw;
                 }
             }
             &>div:nth-child(2) {
+                width: 28%;
                 &>img {
                     margin-top: 340px;
-                    width: 22vw;
                 }
             }
             &>div:nth-child(3) {
-                &>img {
-                    width: 27vw;
-                }
+                width: 33%;
             }
         }
         &-content2 {
@@ -177,23 +219,22 @@
             &>div {
                 &>img {
                     margin-bottom: 10px;
+                    width: 100%;
                 }
             }
             &>div:nth-child(1) {
+                width: 33%;
                 &>img {
                     margin-top: 200px;
-                    width: 27vw;
                 }
             }
             &>div:nth-child(2) {
-                &>img {
-                    width: 22vw;
-                }
+                width: 28%;
             }
             &>div:nth-child(3) {
+                width: 30%;
                 &>img {
                     margin-top: 100px;
-                    width: 24vw;
                 }
             }
         }
@@ -201,6 +242,7 @@
 
     &-con4 {
         width: 80%;
+        max-width: 1400px;
         margin: 0 auto;
         margin-bottom: 250px;
         &-title {
@@ -220,8 +262,9 @@
             justify-content: space-between;
             margin-top: 80px;
             &>div {
+                width: 22%;
                 &>img {
-                    width: 17vw;
+                    width: 100%;
                 }
             }   
         }
@@ -310,7 +353,7 @@
             background-image: url(../../img/Home/banner2MD.png);
         }
         &-banner3 {
-            background-image: url(../../img/Home/banner3.png);
+            background-image: url(../../img/Home/banner3MD.png);
         }
         &-arrow {
             display: flex;

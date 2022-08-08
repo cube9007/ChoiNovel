@@ -8,7 +8,7 @@ import Logo2 from "../../assets/img/Logo2.png";
 function TopBar() {
   return (
     <div>
-        <Box className="flex justify-space top2">
+        <Box className="flex justify-space">
             <div className="flex align-center top-left">
                 <img className="Logo" src={Logo2}/>
                 <p className="f-logo c-f-primary">Choi</p>

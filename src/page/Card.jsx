@@ -1,42 +1,20 @@
 import React from "react";
 import { Hidden } from '@mui/material';
 import TopBar3 from './layout/TopBar3';
-
-function Card1920() {
-    return (
-        <div>
-            <TopBar3/>
-        </div>
-    )
-}
-
-function Card1200() {
-    return (
-        <div>
-            asd
-        </div>
-    )
-}
-
-function Card600() {
-    return (
-        <div>
-            asdasda
-        </div>
-    )
-}
+import TopBar3SM from './layout/TopBar3SM';
+import Price from "./Price";
 
 function Card() {
   return (
     <div>
-      <Hidden lgDown>
-        <Card1920 />
-      </Hidden>
-      <Hidden smDown lgUp>
-        <Card1200 />
+      <Hidden smDown>
+        <TopBar3/>
+        <Price/>
       </Hidden>
       <Hidden smUp>
-        <Card600 />
+        <TopBar3SM/>
+        <Price/>
+        <div style={{height:'80px'}} />
       </Hidden>
     </div>
   );

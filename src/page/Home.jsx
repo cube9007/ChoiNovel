@@ -13,6 +13,9 @@ import FooterMD from "./layout/FooterMD";
 import FooterLG from "./layout/FooterLG";
 
 //img
+import Banner1 from '../assets/img/Home/banner1.png';
+import Banner2 from '../assets/img/Section1.png';
+import Banner3 from '../assets/img/Home/banner3.png';
 import Popular1 from '../assets/img/Home/popular1.png';
 import Popular2 from '../assets/img/Home/popular2.png';
 import Popular3 from '../assets/img/Home/popular3.png';
@@ -97,6 +100,20 @@ function Home1920() {
                         <p>CHOIPASS</p>
                         <p>매월 1일, 15일엔 무료로 Pass</p>
                     </motion.div>
+                    <motion.div className="home-con1-banner-desc-1-img"
+                        initial={{ opacity: 0, 
+                            x: -40
+                        }}
+                        whileInView={{ opacity: 1,
+                            x: 0,
+                            transition: {
+                            type: "spring",
+                            duration: 2,
+                            }
+                        }}
+                    >
+                        <img src={Banner1}/>
+                    </motion.div>
                 </div>
                 <div className="home-con1-banner home-con1-banner2">
                     <motion.div className="home-con1-banner-desc home-con1-banner-desc-2"
@@ -110,9 +127,23 @@ function Home1920() {
                             duration: 2,
                             }
                         }}
-                        >
+                    >
                         <p className="banner-small"><span className="banner-middle">무</span>조건 <span className="banner-middle">보</span>는 <span className="banner-middle">작</span>가의 작품</p>
                         <p className="banner-big c-f-white"> 초이의 소설 맛집</p>
+                    </motion.div>
+                    <motion.div className="home-con1-banner-desc-2-img"
+                        initial={{ opacity: 0, 
+                            x: -40
+                        }}
+                        whileInView={{ opacity: 1,
+                            x: 0,
+                            transition: {
+                            type: "spring",
+                            duration: 2,
+                            }
+                        }}
+                    >
+                        <img src={Banner2}/>
                     </motion.div>
                 </div>
                 <div className="home-con1-banner home-con1-banner3">
@@ -134,6 +165,20 @@ function Home1920() {
                         <p>돈은 정말 인생에서 중요한걸까? <br/>
                             사람은 정말 인생에서 중요한걸까?<br/>
                             돈도 중요하지만 사람도 중요하다...</p>
+                    </motion.div>
+                    <motion.div className="home-con1-banner-desc-3-img"
+                        initial={{ opacity: 0, 
+                            x: -40
+                        }}
+                        whileInView={{ opacity: 1,
+                            x: 0,
+                            transition: {
+                            type: "spring",
+                            duration: 2,
+                            }
+                        }}
+                    >
+                        <img src={Banner3}/>
                     </motion.div>
                 </div>
             </Box>
