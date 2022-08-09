@@ -184,35 +184,33 @@ function Home1920() {
             </Box>
 
             <Box className="home-con2">
-                <Link to='/choipass'>
+                <a>
                     <Box>
                         <Map style={{ width:'50px', height: '50px'}}/>
                     </Box>
                     <p>초이패스</p>
-                </Link>
+                </a>
                 <Link to='/card'>
                     <Box>
                         <CreditCard style={{ width:'50px', height: '50px'}}/>
                     </Box>
                     <p>이용권</p>
                 </Link>
-                <Link to='/event'>
+                <a>
                     <Box>
                         <Cake style={{ width:'50px', height: '50px'}}/>
                     </Box>
                     <p>이벤트</p>
-                </Link>
+                </a>
             </Box>
 
             <Box className="home-con3">
                 <div>
                     <div className="home-con3-title">
                         <p>이번 달의 인기 책</p>
-                        <Link to='popular'>
-                            <Button className="btn-circle2" color="black">
-                                <ArrowForward style={{ width: '50px', height: '50px'}}/>
-                            </Button>
-                        </Link>
+                        <Button className="btn-circle2" color="black">
+                            <ArrowForward style={{ width: '50px', height: '50px'}}/>
+                        </Button>
                     </div>
                     <div className="home-con3-content">
                         <motion.div
@@ -267,11 +265,9 @@ function Home1920() {
                 <div>
                     <div className="home-con3-title">
                         <p>위로가 되는 한마디</p>
-                        <Link to='popular'>
-                            <Button className="btn-circle2" color="black">
-                                <ArrowForward style={{ width: '50px', height: '50px'}}/>
-                            </Button>
-                        </Link>
+                        <Button className="btn-circle2" color="black">
+                            <ArrowForward style={{ width: '50px', height: '50px'}}/>
+                        </Button>
                     </div>
                     <div className="home-con3-content2">
                         <motion.div
@@ -330,11 +326,9 @@ function Home1920() {
                 <div className="home-con4-title">
                     <div style={{ visibility:'none', width:'70px', height: '70px' }} />
                     <p> 달콤한 소설 이야기 </p>
-                    <Link to='novel' >
-                        <Button className="btn-circle2">
-                            <ArrowForward style={{ width:'50px', height: '50px' }} />
-                        </Button>
-                    </Link>
+                    <Button className="btn-circle2">
+                        <ArrowForward style={{ width:'50px', height: '50px' }} />
+                    </Button>
                 </div>
                 <div className="home-con4-content">
                     <motion.div
@@ -405,11 +399,9 @@ function Home1920() {
                 <div className="home-con4-title">
                     <div style={{ visibility:'none', width:'70px', height: '70px' }} />
                     <p>관계에 스트레스 받지 않는 법 </p>
-                    <Link to='relation' >
-                        <Button className="btn-circle2">
-                            <ArrowForward style={{ width:'50px', height: '50px' }} />
-                        </Button>
-                    </Link>
+                    <Button className="btn-circle2">
+                        <ArrowForward style={{ width:'50px', height: '50px' }} />
+                    </Button>
                 </div>
                 <div className="home-con4-content">
                     <motion.div
@@ -488,12 +480,12 @@ function Home1200() {
         <div className="overflow-hidden ">
             <TopBar1/>
             <div className="home1200-con1-arrow">
-                    <span onClick={HandleLeft}>
-                        <ArrowBackIosNew id='arrowLeft' style={{width:'40px', height: '60px', marginLeft: '30px'}} />
-                    </span>
-                    <span onClick={HandleRightClick}>
-                        <ArrowForwardIos id='arrowRight' style={{width:'40px', height: '60px', marginRight: '30px'}}  />
-                    </span>
+                <span onClick={HandleLeft}>
+                    <ArrowBackIosNew id='arrowLeft' style={{width:'40px', height: '60px', marginLeft: '30px'}} />
+                </span>
+                <span onClick={HandleRightClick}>
+                    <ArrowForwardIos id='arrowRight' style={{width:'40px', height: '60px', marginRight: '30px'}}  />
+                </span>
             </div>
             <Box id='bannerBox' className="home1200-con1">
                 <div className="home1200-con1-banner home1200-con1-banner1">
@@ -555,35 +547,33 @@ function Home1200() {
             </Box>
 
             <Box className="home1200-con2">
-                <Link to='/choipass'>
+                <a>
                     <Box>
                         <Map style={{ width:'50px', height: '50px'}}/>
                     </Box>
                     <p>초이패스</p>
-                </Link>
+                </a>
                 <Link to='/card'>
                     <Box>
                         <CreditCard style={{ width:'50px', height: '50px'}}/>
                     </Box>
                     <p>이용권</p>
                 </Link>
-                <Link to='/event'>
+                <a>
                     <Box>
                         <Cake style={{ width:'50px', height: '50px'}}/>
                     </Box>
                     <p>이벤트</p>
-                </Link>
+                </a>
             </Box>
 
             <Box className="home1200-con3">
                 <div>
                     <div className="home1200-con3-title">
                         <p>이번 달의 인기 책</p>
-                        <Link to='popular'>
-                            <Button className="btn-circle2" color="black">
-                                <ArrowForward style={{ width: '50px', height: '50px'}}/>
-                            </Button>
-                        </Link>
+                        <Button className="btn-circle2" color="black">
+                            <ArrowForward style={{ width: '50px', height: '50px'}}/>
+                        </Button>
                     </div>
                     <div className="home1200-con3-content">
                         <motion.div
@@ -638,11 +628,9 @@ function Home1200() {
                 <div>
                     <div className="home1200-con3-title">
                         <p>위로가 되는 한마디</p>
-                        <Link to='popular'>
-                            <Button className="btn-circle2" color="black">
-                                <ArrowForward style={{ width: '50px', height: '50px'}}/>
-                            </Button>
-                        </Link>
+                        <Button className="btn-circle2" color="black">
+                            <ArrowForward style={{ width: '50px', height: '50px'}}/>
+                        </Button>
                     </div>
                     <div className="home1200-con3-content2">
                         <motion.div
@@ -701,11 +689,9 @@ function Home1200() {
                 <div className="home1200-con4-title">
                     <div style={{ visibility:'none', width:'50px', height: '50px' }} />
                     <p> 달콤한 소설 이야기 </p>
-                    <Link to='novel' >
-                        <Button className="btn-circle">
-                            <ArrowForward style={{ width:'35px', height: '35px', color: 'black' }} />
-                        </Button>
-                    </Link>
+                    <Button className="btn-circle">
+                        <ArrowForward style={{ width:'35px', height: '35px', color: 'black' }} />
+                    </Button>
                 </div>
                 <div className="home1200-con4-content">
                     <motion.div
@@ -776,11 +762,9 @@ function Home1200() {
                 <div className="home1200-con4-title">
                     <div style={{ visibility:'none', width:'50px', height: '50px' }} />
                     <p>관계에 스트레스 받지 않는 법 </p>
-                    <Link to='relation' >
-                        <Button className="btn-circle">
-                            <ArrowForward style={{ width:'35px', height: '35px', color: 'black' }} />
-                        </Button>
-                    </Link>
+                    <Button className="btn-circle">
+                        <ArrowForward style={{ width:'35px', height: '35px', color: 'black' }} />
+                    </Button>
                 </div>
                 <div className="home1200-con4-content">
                     <motion.div
@@ -923,35 +907,33 @@ function Home600() {
             </Box>
 
             <Box className="home600-con2">
-                <Link to='/choipass'>
+                <a>
                     <Box>
                         <Map style={{ width:'30px', height: '30px'}}/>
                     </Box>
                     <p>초이패스</p>
-                </Link>
+                </a>
                 <Link to='/card'>
                     <Box>
                         <CreditCard style={{ width:'30px', height: '30px'}}/>
                     </Box>
                     <p>이용권</p>
                 </Link>
-                <Link to='/event'>
+                <a>
                     <Box>
                         <Cake style={{ width:'30px', height: '30px'}}/>
                     </Box>
                     <p>이벤트</p>
-                </Link>
+                </a>
             </Box>
 
             <Box className="home600-con3">
                 <div>
                     <div className="home600-con3-title">
                         <p>이번 달의 인기 책</p>
-                        <Link to='popular'>
-                            <Button className="btn-circle2" color="black">
-                                <ArrowForward style={{ width: '35px', height: '35px'}}/>
-                            </Button>
-                        </Link>
+                        <Button className="btn-circle2" color="black">
+                            <ArrowForward style={{ width: '35px', height: '35px'}}/>
+                        </Button>
                     </div>
                     <div className="home600-con3-content">
                         <motion.div
@@ -1004,11 +986,9 @@ function Home600() {
                 <div>
                     <div className="home600-con3-title">
                         <p>위로가 되는 한마디</p>
-                        <Link to='popular'>
-                            <Button className="btn-circle2" color="black">
-                                <ArrowForward style={{ width: '35px', height: '35px'}}/>
-                            </Button>
-                        </Link>
+                        <Button className="btn-circle2" color="black">
+                            <ArrowForward style={{ width: '35px', height: '35px'}}/>
+                        </Button>
                     </div>
                     <div className="home600-con3-content2">
                         <motion.div
@@ -1064,11 +1044,9 @@ function Home600() {
                 <Divider />
                 <div className="home600-con4-title">
                     <p> 달콤한 소설 이야기 </p>
-                    <Link to='novel' >
-                        <Button className="btn-circle">
-                            <ArrowForward style={{ width:'35px', height: '35px', color: 'black' }} />
-                        </Button>
-                    </Link>
+                    <Button className="btn-circle">
+                        <ArrowForward style={{ width:'35px', height: '35px', color: 'black' }} />
+                    </Button>
                 </div>
                 <div className="home600-con4-content">
                     <motion.div
@@ -1135,11 +1113,9 @@ function Home600() {
 
                 <div className="home600-con4-title">
                     <p>관계에 스트레스 <br/> 받지 않는 법 </p>
-                    <Link to='relation' >
-                        <Button className="btn-circle">
-                            <ArrowForward style={{ width:'35px', height: '35px', color: 'black' }} />
-                        </Button>
-                    </Link>
+                    <Button className="btn-circle">
+                        <ArrowForward style={{ width:'35px', height: '35px', color: 'black' }} />
+                    </Button>
                 </div>
                 <div className="home600-con4-content">
                     <motion.div

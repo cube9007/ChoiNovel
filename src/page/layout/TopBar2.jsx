@@ -8,11 +8,11 @@ import Logo2 from "../../assets/img/Logo2.png";
 function TopBar() {
   return (
     <div>
-        <Box className="flex justify-space top2">
-            <div className="flex align-center top-left">
+        <Box className="flex justify-space">
+            <a href='/' className="flex align-center top-left">
                 <img className="Logo" src={Logo2}/>
                 <p className="f-logo c-f-primary">Choi</p>
-            </div>
+            </a>
             <div className="topbar">
                 <Link to='/home' >
                     <Home/>

@@ -29,19 +29,19 @@ class Top extends Component {
     return (
       <>
         <Box className="flex justify-space top600">
-            <div className="flex align-center top600-left">
+            <a href='/' className="flex align-center top600-left">
                 <img className="Logo" src={Logo}/>
                 <p className="f-logo c-f-white">Choi</p>
-            </div>
+            </a>
             <div className="top600-right align-center flex ">
                 <LoginButton/>
             </div>
         </Box>
         <Box className="flex justify-space top2600">
-            <div className="flex align-center top600-left">
+            <a href='/' className="flex align-center top600-left">
                 <img className="Logo" src={Logo2}/>
                 <p className="f-logo c-f-primary">Choi</p>
-            </div>
+            </a>
             <div className="top600-right align-center flex ">
                 <LoginButton2/>
             </div>

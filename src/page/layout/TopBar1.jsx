@@ -9,10 +9,10 @@ function TopBar() {
   return (
     <div>
         <Box className="flex justify-space">
-            <div className="flex align-center top-left">
+            <a href='/' className="flex align-center top-left">
                 <img className="Logo" src={Logo2}/>
                 <p className="f-logo c-f-primary">Choi</p>
-            </div>
+            </a>
             <div className="topbar">
                 <Link to='/home' className="topbar-selected">
                     <Home/>

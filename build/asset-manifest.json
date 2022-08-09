@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/choi_novel/static/css/main.566623b4.css",
-    "main.js": "/choi_novel/static/js/main.1d522b07.js",
-    "static/media/banner3.png": "/choi_novel/static/media/banner3.aee60cc60ec7ae07d223.png",
-    "static/media/banner1.png": "/choi_novel/static/media/banner1.360c29fa7d9a20e0524e.png",
+    "main.css": "/choi_novel/static/css/main.6085627b.css",
+    "main.js": "/choi_novel/static/js/main.06e0fe9d.js",
+    "static/media/banner3.png": "/choi_novel/static/media/banner3.42912efe4eb8e0653838.png",
+    "static/media/banner1.png": "/choi_novel/static/media/banner1.5e0500a3e0352537e85f.png",
+    "static/media/banner3MD.png": "/choi_novel/static/media/banner3MD.aee60cc60ec7ae07d223.png",
     "static/media/Section1.png": "/choi_novel/static/media/Section1.db850065c3845c19a932.png",
     "static/media/section4_img3.png": "/choi_novel/static/media/section4_img3.a7866688082a301140c1.png",
     "static/media/banner1MD.png": "/choi_novel/static/media/banner1MD.beb3ef7bfcdccd664e5a.png",
@@ -11,7 +12,6 @@
     "static/media/section4_img6.png": "/choi_novel/static/media/section4_img6.594695cd618505d06d69.png",
     "static/media/background.png": "/choi_novel/static/media/background.a98af8dee52d3d2acf62.png",
     "static/media/popular3.png": "/choi_novel/static/media/popular3.35248b50b7844bfbc510.png",
-    "static/media/banner2.png": "/choi_novel/static/media/banner2.35a4ea926b1df44a9520.png",
     "static/media/banner2MD.png": "/choi_novel/static/media/banner2MD.0bea4519135ff6fd5454.png",
     "static/media/banner3SM.png": "/choi_novel/static/media/banner3SM.320c4e8f43a7bbe0ced4.png",
     "static/media/banner1SM.png": "/choi_novel/static/media/banner1SM.06707ea55211a2470d27.png",
@@ -41,11 +41,11 @@
     "static/media/book2.png": "/choi_novel/static/media/book2.78ca12e31f3602c2d625.png",
     "static/media/book.png": "/choi_novel/static/media/book.a2741bbff7edaa6e40e6.png",
     "index.html": "/choi_novel/index.html",
-    "main.566623b4.css.map": "/choi_novel/static/css/main.566623b4.css.map",
-    "main.1d522b07.js.map": "/choi_novel/static/js/main.1d522b07.js.map"
+    "main.6085627b.css.map": "/choi_novel/static/css/main.6085627b.css.map",
+    "main.06e0fe9d.js.map": "/choi_novel/static/js/main.06e0fe9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.566623b4.css",
-    "static/js/main.1d522b07.js"
+    "static/css/main.6085627b.css",
+    "static/js/main.06e0fe9d.js"
   ]
 }
