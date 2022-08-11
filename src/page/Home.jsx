@@ -52,9 +52,7 @@ function HandleLeft() {
 function HandleRight() {
     const banner = document.getElementById('bannerBox');
     
-    if (banner.style.marginLeft == 0) {
-        banner.style.marginLeft = '-100%'
-    } else if (banner.style.marginLeft == '0px') {
+    if (banner.style.marginLeft == '0px') {
         banner.style.marginLeft = '-100%'
     } else if (banner.style.marginLeft == '-100%') {
         banner.style.marginLeft = '-200%'
@@ -112,7 +110,7 @@ function Home1920() {
                             }
                         }}
                     >
-                        <img src={Banner1}/>
+                        <img src={Banner1} alt='banner1'/>
                     </motion.div>
                 </div>
                 <div className="home-con1-banner home-con1-banner2">
@@ -143,7 +141,7 @@ function Home1920() {
                             }
                         }}
                     >
-                        <img src={Banner2}/>
+                        <img src={Banner2} alt='banner2'/>
                     </motion.div>
                 </div>
                 <div className="home-con1-banner home-con1-banner3">
@@ -178,7 +176,7 @@ function Home1920() {
                             }
                         }}
                     >
-                        <img src={Banner3}/>
+                        <img src={Banner3} alt='banner3'/>
                     </motion.div>
                 </div>
             </Box>

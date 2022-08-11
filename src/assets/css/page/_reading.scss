@@ -1,0 +1,64 @@
+.reading {
+    &-top {
+        background-color: $f5;
+        &>div:nth-child(1) {
+            margin: 0 auto;
+            max-width: 1400px;
+            width: 80%;
+            padding: 50px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &>p {
+                font-size: 30px;
+                font-weight: bold;
+            }
+            &>a {
+                transition: 0.2s;
+                height: 100px;
+                width: 75px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 5px;
+                &:hover {
+                    background-color: rgb(0,0,0,0.05);
+                }
+            }
+        }
+        &-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &>img:nth-child(1) {
+                rotate: 180deg;
+                margin-bottom: 50px;
+            }
+            &>p:nth-child(2) {
+                text-align: center;
+                font-size: 30px;
+                font-weight: bold;
+                margin-bottom: 50px;
+            }
+            &>img {
+                width: 35px;
+            }
+        }
+        
+    }
+    &-body {
+        margin: 0 auto;
+        width: 80%;
+        max-width: 1400px;
+        padding: 100px 0;
+        &-pre {
+            font-size: 20px;
+            width: 100%;
+            font-weight: 300;
+            // border: 1px solid red;
+            line-height: 160%;
+            white-space: pre-wrap;
+            text-align: justify;
+        }
+    }
+}

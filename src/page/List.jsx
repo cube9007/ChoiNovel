@@ -53,8 +53,8 @@ function List() {
                       }
                   }}
                 >
-                  <Link to="해와달">
-                    <img className="list-section1-con-img" src={Today1} />
+                  <Link to="novel1">
+                    <img className="list-section1-con-img" src={Today1} alt='해와 달'/>
                     <p>1위</p>
                     <p>해와 달</p>
                   </Link>
@@ -73,8 +73,8 @@ function List() {
                       }
                   }}
                 >
-                  <Link to="해와달">
-                    <img className="list-section1-con-img" src={Today2} />
+                  <Link to="relation2">
+                    <img className="list-section1-con-img" src={Today2} alt='해와 달'/>
                     <p>2위</p>
                     <p>돈과 사람</p>
                   </Link>
@@ -93,8 +93,8 @@ function List() {
                       }
                   }}
                 >
-                  <Link to="해와달">
-                    <img className="list-section1-con-img" src={Today3} />
+                  <Link to="novel3">
+                    <img className="list-section1-con-img" src={Today3} alt='해와 달'/>
                     <p>3위</p>
                     <p>픽셀전쟁</p>
                   </Link>
@@ -107,27 +107,27 @@ function List() {
             <div className="list-section2-con">
               <p>소설</p>
               <Box>
-                <Link to='novel'>
+                <Link to='novel1'>
                   <div>
-                    <img src={Novel1} />
+                    <img src={Novel1} alt='해와 달'/>
                   </div>
                   <div>
                     <p>해와 달</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='novel2'>
                   <div>
-                    <img src={Novel2} />
+                    <img src={Novel2} alt='무적'/>
                   </div>
                   <div>
                     <p>무적</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='novel3'>
                   <div>
-                    <img src={Novel3} />
+                    <img src={Novel3} alt='픽셀전쟁'/>
                   </div>
                   <div>
                     <p>픽셀전쟁</p>
@@ -136,27 +136,27 @@ function List() {
                 </Link>
               </Box>
               <Box>
-                <Link to='novel'>
+                <Link to='novel4'>
                   <div>
-                    <img src={Novel4} />
+                    <img src={Novel4} alt='그림자'/>
                   </div>
                   <div>
                     <p>그림자</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='novel5'>
                   <div>
-                    <img src={Novel5} />
+                    <img src={Novel5} alt='왕의 전쟁'/>
                   </div>
                   <div>
                     <p>왕의 전쟁</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='novel6'>
                   <div>
-                    <img src={Novel6} />
+                    <img src={Novel6} alt='신발을 부탁해'/>
                   </div>
                   <div>
                     <p>신발을 부탁해</p>
@@ -165,27 +165,27 @@ function List() {
                 </Link>
               </Box>
               <Box>
-                <Link to='novel'>
+                <Link to='novel7'>
                   <div>
-                    <img src={Novel7} />
+                    <img src={Novel7} alt='세계최강'/>
                   </div>
                   <div>
                     <p>세계최강</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='novel8'>
                   <div>
-                    <img src={Novel8} />
+                    <img src={Novel8} alt='워노화신'/>
                   </div>
                   <div>
                     <p>워노화신</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='novel9'>
                   <div>
-                    <img src={Novel9} />
+                    <img src={Novel9} alt='모니터 안의 세상'/>
                   </div>
                   <div>
                     <p>모니터 안의 세상</p>
@@ -197,27 +197,27 @@ function List() {
             <div className="list-section2-con">
               <p>인간관계</p>
               <Box>
-                <Link to='novel'>
+                <Link to='relation1'>
                   <div>
-                    <img src={Relation1} />
+                    <img src={Relation1} alt='소셜 다이빙'/>
                   </div>
                   <div>
                     <p>소셜 다이빙</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='relation2'>
                   <div>
-                    <img src={Relation2} />
+                    <img src={Relation2} alt='돈과 사람'/>
                   </div>
                   <div>
                     <p>돈과 사람</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='relation3'>
                   <div>
-                    <img src={Relation3} />
+                    <img src={Relation3} alt='꼰대중독'/>
                   </div>
                   <div>
                     <p>꼰대중독</p>
@@ -226,18 +226,18 @@ function List() {
                 </Link>
               </Box>
               <Box>
-                <Link to='novel'>
+                <Link to='relation4'>
                   <div>
-                    <img src={Relation4} />
+                    <img src={Relation4} alt='그 상사의 사정'/>
                   </div>
                   <div>
                     <p>그 상사의 사정</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='relation5'>
                   <div>
-                    <img src={Relation5} />
+                    <img src={Relation5} alt='요즘 것들을 이해하는 법'/>
                   </div>
                   <div>
                     <p>요즘 것들을 이해하는 법</p>
@@ -250,27 +250,27 @@ function List() {
             <div className="list-section2-con">
               <p>심리학</p>
               <Box>
-                <Link to='novel'>
+                <Link to='mind1'>
                   <div>
-                    <img src={Mind1} />
+                    <img src={Mind1} alt='마음의 평화'/>
                   </div>
                   <div>
                     <p>마음의 평화</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='mind2'>
                   <div>
-                    <img src={Mind2} />
+                    <img src={Mind2} alt='원호심리학'/>
                   </div>
                   <div>
                     <p>원호심리학</p>
                     <p>최원호</p>
                   </div>
                 </Link>
-                <Link to='novel'>
+                <Link to='mind3'>
                   <div>
-                    <img src={Mind3} />
+                    <img src={Mind3} alt='하얀 언덕'/>
                   </div>
                   <div>
                     <p>하얀 언덕</p>
@@ -303,8 +303,8 @@ function ListMD() {
                     }
                 }}
               >
-                <Link to="해와달">
-                  <img className="listMD-section1-con-img" src={Today1} />
+                <Link to="novel1">
+                  <img className="listMD-section1-con-img" src={Today1} alt='해와 달'/>
                   <p>1위</p>
                   <p>해와 달</p>
                 </Link>
@@ -323,8 +323,8 @@ function ListMD() {
                     }
                 }}
               >
-                <Link to="해와달">
-                  <img className="listMD-section1-con-img" src={Today2} />
+                <Link to="relation2">
+                  <img className="listMD-section1-con-img" src={Today2} alt='돈과 사람'/>
                   <p>2위</p>
                   <p>돈과 사람</p>
                 </Link>
@@ -343,8 +343,8 @@ function ListMD() {
                     }
                 }}
               >
-                <Link to="해와달">
-                  <img className="listMD-section1-con-img" src={Today3} />
+                <Link to="novel3">
+                  <img className="listMD-section1-con-img" src={Today3} alt='픽셀전쟁'/>
                   <p>3위</p>
                   <p>픽셀전쟁</p>
                 </Link>
@@ -357,27 +357,27 @@ function ListMD() {
           <div className="listMD-section2-con">
             <p>소설</p>
             <Box>
-              <Link to='novel'>
+              <Link to='novel1'>
                 <div>
-                  <img src={Novel1} />
+                  <img src={Novel1} alt='해와 달'/>
                 </div>
                 <div>
                   <p>해와 달</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='novel2'>
                 <div>
-                  <img src={Novel2} />
+                  <img src={Novel2} alt='무적'/>
                 </div>
                 <div>
                   <p>무적</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='novel3'>
                 <div>
-                  <img src={Novel3} />
+                  <img src={Novel3} alt='픽셀전쟁'/>
                 </div>
                 <div>
                   <p>픽셀전쟁</p>
@@ -386,27 +386,27 @@ function ListMD() {
               </Link>
             </Box>
             <Box>
-              <Link to='novel'>
+              <Link to='novel4'>
                 <div>
-                  <img src={Novel4} />
+                  <img src={Novel4} alt='그림자'/>
                 </div>
                 <div>
                   <p>그림자</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='novel5'>
                 <div>
-                  <img src={Novel5} />
+                  <img src={Novel5} alt='왕의 전쟁'/>
                 </div>
                 <div>
                   <p>왕의 전쟁</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='novel6'>
                 <div>
-                  <img src={Novel6} />
+                  <img src={Novel6} alt='신발을 부탁해'/>
                 </div>
                 <div>
                   <p>신발을 부탁해</p>
@@ -415,27 +415,27 @@ function ListMD() {
               </Link>
             </Box>
             <Box>
-              <Link to='novel'>
+              <Link to='novel7'>
                 <div>
-                  <img src={Novel7} />
+                  <img src={Novel7} alt='세계최강'/>
                 </div>
                 <div>
                   <p>세계최강</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='novel8'>
                 <div>
-                  <img src={Novel8} />
+                  <img src={Novel8} alt='워노화신'/>
                 </div>
                 <div>
                   <p>워노화신</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='novel9'>
                 <div>
-                  <img src={Novel9} />
+                  <img src={Novel9} alt='모니터 안의 세상'/>
                 </div>
                 <div>
                   <p>모니터 안의 세상</p>
@@ -447,27 +447,27 @@ function ListMD() {
           <div className="listMD-section2-con">
             <p>인간관계</p>
             <Box>
-              <Link to='novel'>
+              <Link to='relation1'>
                 <div>
-                  <img src={Relation1} />
+                  <img src={Relation1} alt='소셜 다이빙'/>
                 </div>
                 <div>
                   <p>소셜 다이빙</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='relation2'>
                 <div>
-                  <img src={Relation2} />
+                  <img src={Relation2} alt='돈과 사람'/>
                 </div>
                 <div>
                   <p>돈과 사람</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='relation3'>
                 <div>
-                  <img src={Relation3} />
+                  <img src={Relation3} alt='꼰대중독'/>
                 </div>
                 <div>
                   <p>꼰대중독</p>
@@ -476,18 +476,18 @@ function ListMD() {
               </Link>
             </Box>
             <Box>
-              <Link to='novel'>
+              <Link to='relation4'>
                 <div>
-                  <img src={Relation4} />
+                  <img src={Relation4} alt='그 상사의 사정'/>
                 </div>
                 <div>
                   <p>그 상사의 사정</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='relation5'>
                 <div>
-                  <img src={Relation5} />
+                  <img src={Relation5} alt='요즘 것들을 이해하는 법'/>
                 </div>
                 <div>
                   <p>요즘 것들을 이해하는 법</p>
@@ -500,27 +500,27 @@ function ListMD() {
           <div className="listMD-section2-con">
             <p>심리학</p>
             <Box>
-              <Link to='novel'>
+              <Link to='mind1'>
                 <div>
-                  <img src={Mind1} />
+                  <img src={Mind1} alt='마음의 평화'/>
                 </div>
                 <div>
                   <p>마음의 평화</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='mind2'>
                 <div>
-                  <img src={Mind2} />
+                  <img src={Mind2} alt='원호심리학'/>
                 </div>
                 <div>
                   <p>원호심리학</p>
                   <p>최원호</p>
                 </div>
               </Link>
-              <Link to='novel'>
+              <Link to='mind3'>
                 <div>
-                  <img src={Mind3} />
+                  <img src={Mind3} alt='하얀 언덕'/>
                 </div>
                 <div>
                   <p>하얀 언덕</p>
@@ -553,8 +553,8 @@ function ListSM() {
                     }
                 }}
               >
-                <Link to="해와달">
-                  <img className="listSM-section1-con-img" src={Today1} />
+                <Link to="novel1">
+                  <img className="listSM-section1-con-img" src={Today1} alt='해와 달'/>
                   <p>1위</p>
                   <p>해와 달</p>
                 </Link>
@@ -573,8 +573,8 @@ function ListSM() {
                     }
                 }}
               >
-                <Link to="해와달">
-                  <img className="listSM-section1-con-img" src={Today2} />
+                <Link to="relation2">
+                  <img className="listSM-section1-con-img" src={Today2} alt='돈과 사람'/>
                   <p>2위</p>
                   <p>돈과 사람</p>
                 </Link>
@@ -593,8 +593,8 @@ function ListSM() {
                     }
                 }}
               >
-                <Link to="해와달">
-                  <img className="listSM-section1-con-img" src={Today3} />
+                <Link to="novel3">
+                  <img className="listSM-section1-con-img" src={Today3} alt='픽셀전쟁'/>
                   <p>3위</p>
                   <p>픽셀전쟁</p>
                 </Link>
@@ -607,56 +607,56 @@ function ListSM() {
           <div className="listSM-section2-con">
             <p>소설</p>
             <Box>
-              <Link to='novel'>
-                <img src={Novel1} />
+              <Link to='novel1'>
+                <img src={Novel1} alt='해와 달'/>
                 <p>해와 달</p>
                 <p>최원호</p>
               </Link>
-              <Link to='novel'>
-                <img src={Novel2} />
+              <Link to='novel2'>
+                <img src={Novel2} alt='무적'/>
                 <p>무적</p>
                 <p>최원호</p>
               </Link>
             </Box>
             <Box>
-              <Link to='novel'>
-                <img src={Novel3} />
+              <Link to='novel3'>
+                <img src={Novel3} alt='픽셀전쟁'/>
                 <p>픽셀전쟁</p>
                 <p>최원호</p>
               </Link>
-              <Link to='novel'>
-                <img src={Novel4} />
+              <Link to='novel4'>
+                <img src={Novel4} alt='그림자'/>
                 <p>그림자</p>
                 <p>최원호</p>
               </Link>
             </Box>
             <Box>
-              <Link to='novel'>
-                <img src={Novel5} />
+              <Link to='novel5'>
+                <img src={Novel5} alt='왕의 전쟁'/>
                 <p>왕의 전쟁</p>
                 <p>최원호</p>
               </Link>
-              <Link to='novel'>
-                <img src={Novel6} />
+              <Link to='novel6'>
+                <img src={Novel6} alt='신발을 부탁해'/>
                 <p>신발을 부탁해</p>
                 <p>최원호</p>
               </Link>
             </Box>
             <Box>
-              <Link to='novel'>
-                <img src={Novel7} />
+              <Link to='novel7'>
+                <img src={Novel7} alt='세계최강'/>
                 <p>세계최강</p>
                 <p>최원호</p>
               </Link>
-              <Link to='novel'>
-                <img src={Novel8} />
+              <Link to='novel8'>
+                <img src={Novel8} alt='워노화신'/>
                 <p>워노화신</p>
                 <p>최원호</p>
               </Link>
             </Box>
             <Box>
-              <Link to='novel'>
-                <img src={Novel9} />
+              <Link to='novel9'>
+                <img src={Novel9}  alt='모니터 안의 세상'/>
                 <p>모니터 안의 세상</p>
                 <p>최원호</p>
               </Link>
@@ -666,33 +666,33 @@ function ListSM() {
           <div className="listSM-section2-con">
             <p>인간관계</p>
             <Box>
-              <Link to='novel'>
-                <img src={Relation1} />
+              <Link to='relation1'>
+                <img src={Relation1} alt='소셜 다이빙'/>
                 <p>소셜 다이빙</p>
                 <p>최원호</p>
               </Link>
-              <Link to='novel'>
-                <img src={Relation2} />
+              <Link to='relation2'>
+                <img src={Relation2} alt='돈과 사람'/>
                 <p>돈과 사람</p>
                 <p>최원호</p>
               </Link>
             </Box>
             <Box>
-              <Link to='novel'>
-                <img src={Relation3} />
+              <Link to='relation3'>
+                <img src={Relation3} alt='꼰대중독'/>
                 <p>꼰대중독</p>
                 <p>최원호</p>
               </Link>
             
-              <Link to='novel'>
-                <img src={Relation4} />
+              <Link to='relation4'>
+                <img src={Relation4} alt='그 상사의 사정'/>
                 <p>그 상사의 사정</p>
                 <p>최원호</p>
               </Link>
             </Box>
             <Box>
-              <Link to='novel'>
-                <img src={Relation5} />
+              <Link to='relation5'>
+                <img src={Relation5} alt='요즘 것들을 이해하는 법'/>
                 <p>요즘 것들을 이해하는 법</p>
                 <p>최원호</p>
               </Link>
@@ -702,20 +702,20 @@ function ListSM() {
           <div className="listSM-section2-con">
             <p>심리학</p>
             <Box>
-              <Link to='novel'>
-                <img src={Mind1} />
+              <Link to='mind1'>
+                <img src={Mind1} alt='마음의 평화'/>
                 <p>마음의 평화</p>
                 <p>최원호</p>
               </Link>
-              <Link to='novel'>
-                <img src={Mind2} />
+              <Link to='mind2'>
+                <img src={Mind2} alt='원호심리학'/>
                 <p>원호심리학</p>
                 <p>최원호</p>
               </Link>
             </Box>
             <Box>
-              <Link to='novel'>
-                <img src={Mind3} />
+              <Link to='mind3'>
+                <img src={Mind3} alt='하얀 언덕'/>
                 <p>하얀 언덕</p>
                 <p>최원호</p>
               </Link>
