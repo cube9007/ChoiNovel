@@ -22,7 +22,7 @@ class Fix extends Component {
     return (
       <>
         <Link to='/price' className="fix-link">
-          <Button className="fix f-b30">
+          <Button className="fix f-b30" onClick={() => window.scrollTo(0,0)}>
             <span className="f-b20b">첫 달 무료</span><span className="f-b20">로 독서 시작하기</span>
           </Button>
         </Link>

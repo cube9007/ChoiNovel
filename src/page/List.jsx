@@ -53,7 +53,7 @@ function List() {
                       }
                   }}
                 >
-                  <Link to="novel1">
+                  <Link to="novel1" >
                     <img className="list-section1-con-img" src={Today1} alt='해와 달'/>
                     <p>1위</p>
                     <p>해와 달</p>

@@ -52,7 +52,9 @@ function HandleLeft() {
 function HandleRight() {
     const banner = document.getElementById('bannerBox');
     
-    if (banner.style.marginLeft == '0px') {
+    if (banner.style.marginLeft == 0 ) {
+        banner.style.marginLeft = '-100%'
+    } else if (banner.style.marginLeft == '0px') {
         banner.style.marginLeft = '-100%'
     } else if (banner.style.marginLeft == '-100%') {
         banner.style.marginLeft = '-200%'
@@ -73,12 +75,12 @@ function Home1920() {
         <div className="overflow-hidden ">
             <TopBar1/>
             <div className="home-con1-arrow">
-                    <span onClick={HandleLeft}>
-                        <ArrowBackIosNew id='arrowLeft' style={{width:'40px', height: '60px', marginLeft: '30px'}} />
-                    </span>
-                    <span onClick={HandleRightClick}>
-                        <ArrowForwardIos id='arrowRight' style={{width:'40px', height: '60px', marginRight: '30px'}}  />
-                    </span>
+                <span onClick={HandleLeft}>
+                    <ArrowBackIosNew id='arrowLeft' style={{width:'40px', height: '60px', marginLeft: '30px'}} />
+                </span>
+                <span onClick={HandleRightClick}>
+                    <ArrowForwardIos id='arrowRight' style={{width:'40px', height: '60px', marginRight: '30px'}}  />
+                </span>
             </div>
             <Box id='bannerBox' className="home-con1">
                 <div className="home-con1-banner home-con1-banner1">

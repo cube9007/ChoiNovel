@@ -14,24 +14,36 @@ import FooterSM from "../../layout/FooterSM";
 //img
 import Quotes from "../../../assets/img/quotes.png";
 
+function LeftArrow() {
+    return(
+        <Link to='/list/novel1/1'>
+            <ArrowBackIosNew style={{width:'40px', height: '60px'}}/>
+        </Link>
+    )
+}
+
+function RightArrow() {
+    return(
+        <Link to='/list/novel1/2'>
+            <ArrowForwardIos style={{width:'40px', height: '60px'}}/>
+        </Link>
+    )
+}
+
 
 function Reading() {
     return(
         <div>
             <Box className='reading-top'>
                 <div>
-                    <Link to='/list/novel1/1'>
-                        <ArrowBackIosNew style={{width:'40px', height: '60px'}}/>
-                    </Link>
+                    <LeftArrow/>
                     <Box className='reading-top-title'> 
                         <img src={Quotes} alt='quotes'/>
                         <p>1화 해 속성과 달 속성</p>
                         
                         <img src={Quotes} alt='quotes'/>
                     </Box>
-                    <Link to='/list/novel1/2'>
-                        <ArrowForwardIos style={{width:'40px', height: '60px'}}/>
-                    </Link>
+                    <RightArrow/>
                 </div>
             </Box>
             <Box className="reading-body">
@@ -44,6 +56,13 @@ function Reading() {
 해 속성의 사람인 것 같다.
 
                 `}</pre>
+            </Box>
+            <Box className='reading-foot'>
+                <LeftArrow/>
+                <Link to='/list/novel1'>
+                    <p className="reading-foot-list">목록</p>
+                </Link>
+                <RightArrow/>
             </Box>
         </div>
     )

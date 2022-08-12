@@ -9,9 +9,17 @@ import TopBar2 from '../layout/TopBar2';
 import TopBar2SM from '../layout/TopBar2SM';
 import FooterLG from "../layout/FooterLG";
 import FooterSM from "../layout/FooterSM";
-
 //img
 import Novel5 from '../../assets/img/List/novel5.png';
+
+function Chapter(props) {
+    return (
+        <Link to={props.chapter} >
+            <p> {props.title}</p>
+            <p> {props.date} </p>
+        </Link>
+    )
+}
 
 function Index() {
     return(
@@ -44,30 +52,15 @@ function Index() {
             
             <Box className='index-body'>
                 <Divider style={{border: '1px solid #666'}}/>
-                <Link to='5'>
-                    <p>준비중입니다.</p>
-                    <p>2022.08.11</p>
-                </Link>
+                <Chapter chapter={`1`} title='준비중입니다.' date='2022.08.11'/>
                 <Divider />
-                <Link to='4'>
-                    <p>준비중입니다.</p>
-                    <p>2022.08.11</p>
-                </Link>
+                <Chapter chapter={`2`} title='준비중입니다.' date='2022.08.11'/>
                 <Divider />
-                <Link to='3'>
-                    <p>준비중입니다.</p>
-                    <p>2022.08.11</p>
-                </Link>
+                <Chapter chapter={`3`} title='준비중입니다.' date='2022.08.11'/>
                 <Divider />
-                <Link to='2'>
-                    <p>준비중입니다.</p>
-                    <p>2022.08.11</p>
-                </Link>
+                <Chapter chapter={`4`} title='준비중입니다.' date='2022.08.11'/>
                 <Divider />
-                <Link to='1'>
-                    <p>준비중입니다.</p>
-                    <p>2022.08.11</p>
-                </Link>
+                <Chapter chapter={`5`} title='준비중입니다.' date='2022.08.11'/>
                 <Divider style={{border: '1px solid #666'}}/>
             </Box>
         </div>

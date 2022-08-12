@@ -358,6 +358,7 @@
         &-arrow {
             display: flex;
             position: absolute;
+            z-index: 3;
             width: 100vw;
             justify-content: space-between;
             margin-top: 370px;
@@ -586,6 +587,7 @@
         &-arrow {
             display: flex;
             position: absolute;
+            z-index: 3;
             width: 100vw;
             justify-content: space-between;
             margin-top: 270px;

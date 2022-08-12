@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Box, Button } from "@mui/material";
 import $ from "jquery";
 
@@ -29,19 +30,19 @@ class Top extends Component {
     return (
       <>
         <Box className="flex justify-space top600">
-            <a href='/' className="flex align-center top600-left">
+            <Link to='/' className="flex align-center top600-left">
                 <img className="Logo" src={Logo}/>
                 <p className="f-logo c-f-white">Choi</p>
-            </a>
+            </Link>
             <div className="top600-right align-center flex ">
                 <LoginButton/>
             </div>
         </Box>
         <Box className="flex justify-space top2600">
-            <a href='/' className="flex align-center top600-left">
+            <Link to='/' className="flex align-center top600-left">
                 <img className="Logo" src={Logo2}/>
                 <p className="f-logo c-f-primary">Choi</p>
-            </a>
+            </Link>
             <div className="top600-right align-center flex ">
                 <LoginButton2/>
             </div>

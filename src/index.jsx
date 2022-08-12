@@ -5,12 +5,11 @@ import App from './App';
 import { ThemeProvider } from "@mui/material/styles";
 import { DefaultTheme } from "./ThemeConfig";
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={DefaultTheme}>
-      <App />
+        <App />
     </ThemeProvider>
   </React.StrictMode>
 );

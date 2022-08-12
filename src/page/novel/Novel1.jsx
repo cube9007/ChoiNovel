@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Hidden, Box, Divider } from '@mui/material';
 import { motion,
 } from 'framer-motion';
-
 //layout
 import TopBar2 from '../layout/TopBar2';
 import TopBar2SM from '../layout/TopBar2SM';
@@ -12,6 +11,33 @@ import FooterSM from "../layout/FooterSM";
 
 //img
 import Novel1 from '../../assets/img/List/novel1.png';
+
+function Chapter(props) {
+    return (
+        <Link to={props.chapter} >
+            <p> {props.title}</p>
+            <p> {props.date} </p>
+        </Link>
+    )
+}
+
+// function ChapterAll() {
+//     let title = [
+//         '해 속성과 달 속성',
+//         '헤어짐의 운명1',
+//         '헤어짐의 운명2',
+//         '헤어짐의 운명3',
+//         '태양의 운명1',
+//         '태양의 운명2',
+//     ]
+    
+//     let i = 0
+//     while ( i < title.length ) {
+//         document.write('<Link to=' + (i+1) + 'onClick={' + scrollTop + '}>' + '<p>' + (i+1) + '화 : ' + title[i] + '</p>' + '<p>' + '</p>' + '</Link>' );
+//         i = i + 1
+        
+//     }
+// }
 
 function Index() {
     return(
@@ -46,35 +72,19 @@ function Index() {
             
             <Box className='index-body'>
                 <Divider style={{border: '1px solid #666'}}/>
-                <Link to='6'>
-                    <p>6화 : 태양의 운명2</p>
-                    <p>2022.08.11</p>
-                </Link>
+
+                <Chapter chapter='1' title='1화 : 해 속성과 달 속성' date='2022.08.11'/>
                 <Divider />
-                <Link to='5'>
-                    <p>5화 : 태양의 운명1</p>
-                    <p>2022.08.11</p>
-                </Link>
+                <Chapter chapter='2' title='2화 : 헤어짐의 운명1' date='2022.08.22'/>
                 <Divider />
-                <Link to='4'>
-                    <p>4화 : 헤어짐의 운명3</p>
-                    <p>2022.08.11</p>
-                </Link>
+                <Chapter chapter='3' title='3화 : 헤어짐의 운명2' date='2022.08.22'/>
                 <Divider />
-                <Link to='3'>
-                    <p>3화 : 헤어짐의 운명2</p>
-                    <p>2022.08.11</p>
-                </Link>
+                <Chapter chapter='4' title='4화 : 헤어짐의 운명3' date='2022.08.22'/>
                 <Divider />
-                <Link to='2'>
-                    <p>2화 : 헤어짐의 운명1</p>
-                    <p>2022.08.11</p>
-                </Link>
+                <Chapter chapter='5' title='5화 : 태양의 운명1' date='2022.08.22'/>
                 <Divider />
-                <Link to='1'>
-                    <p>1화 : 해 속성과 달 속성</p>
-                    <p>2022.08.11</p>
-                </Link>
+                <Chapter chapter='6' title='6화 : 태양의 운명2' date='2022.08.22'/>
+                
                 <Divider style={{border: '1px solid #666'}}/>
             </Box>
         </div>
