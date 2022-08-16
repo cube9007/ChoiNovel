@@ -73,9 +73,9 @@ function Index() {
             <Box className='index-body'>
                 <Divider style={{border: '1px solid #666'}}/>
 
-                <Chapter chapter='1' title='1화 : 해 속성과 달 속성' date='2022.08.11'/>
+                <Chapter chapter='1' title='1화 : 햇조마을 끝자락 1' date='2022.08.11'/>
                 <Divider />
-                <Chapter chapter='2' title='2화 : 헤어짐의 운명1' date='2022.08.22'/>
+                <Chapter chapter='2' title='2화 : 햇조마을 끝자락 2' date='2022.08.16'/>
                 <Divider />
                 <Chapter chapter='3' title='3화 : 헤어짐의 운명2' date='2022.08.22'/>
                 <Divider />

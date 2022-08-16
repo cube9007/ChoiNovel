@@ -38,7 +38,7 @@ function Reading() {
                     <LeftArrow/>
                     <Box className='reading-top-title'> 
                         <img src={Quotes} alt='quotes'/>
-                        <p>2화 헤어짐의 운명1</p>
+                        <p>2화 햇조마을 끝자락 2</p>
                         
                         <img src={Quotes} alt='quotes'/>
                     </Box>
