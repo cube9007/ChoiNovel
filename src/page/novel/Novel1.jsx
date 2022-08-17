@@ -23,8 +23,8 @@ function Chapter(props) {
 
 // function ChapterAll() {
 //     let title = [
-//         '해 속성과 달 속성',
-//         '헤어짐의 운명1',
+//         '햇조마을 끝자락 1',
+//         '햇조마을 끝자락 2',
 //         '헤어짐의 운명2',
 //         '헤어짐의 운명3',
 //         '태양의 운명1',
@@ -72,12 +72,12 @@ function Index() {
             
             <Box className='index-body'>
                 <Divider style={{border: '1px solid #666'}}/>
-
+                
                 <Chapter chapter='1' title='1화 : 햇조마을 끝자락 1' date='2022.08.11'/>
                 <Divider />
                 <Chapter chapter='2' title='2화 : 햇조마을 끝자락 2' date='2022.08.16'/>
                 <Divider />
-                <Chapter chapter='3' title='3화 : 헤어짐의 운명2' date='2022.08.22'/>
+                <Chapter chapter='3' title='3화 : 일방적인 인연 1' date='2022.08.17'/>
                 <Divider />
                 <Chapter chapter='4' title='4화 : 헤어짐의 운명3' date='2022.08.22'/>
                 <Divider />

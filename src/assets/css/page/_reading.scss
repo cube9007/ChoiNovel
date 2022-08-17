@@ -91,10 +91,16 @@
             }
         }
         &-list {
-            font-size: 30px;
+            font-size: 25px;
             font-weight: bold;
             padding: 50px 100px;
             
         }
+    }
+}
+
+@media (max-width: 600px) {
+    .reading-foot-list {
+        padding: 50px 30px;
     }
 }
