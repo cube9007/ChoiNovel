@@ -39,7 +39,7 @@ function Chapter(props) {
 //     }
 // }
 
-function Index() {
+function Index() { 
     return(
         <div>
             <Box className='index-top'>
@@ -61,7 +61,7 @@ function Index() {
                         <div>
                             <p>작품 소개</p>
                             <p>
-                            두 속성으로 나뉘어진 인간 <br/>
+                            해와 달,두 속성으로 나뉘어진 인간 <br/>
                             서로의 장점으로 단점을 보완해주지만, <br/>
                             그들 사이의 균열이 가게 되는데...
                             </p>
@@ -79,7 +79,7 @@ function Index() {
                 <Divider />
                 <Chapter chapter='3' title='3화 : 일방적인 인연 1' date='2022.08.17'/>
                 <Divider />
-                <Chapter chapter='4' title='4화 : 헤어짐의 운명3' date='2022.08.22'/>
+                <Chapter chapter='4' title='4화 : 일방적인 인연 2' date='2022.08.22'/>
                 <Divider />
                 <Chapter chapter='5' title='5화 : 태양의 운명1' date='2022.08.22'/>
                 <Divider />
